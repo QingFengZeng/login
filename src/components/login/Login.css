@@ -1,0 +1,33 @@
+
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.login-form-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: center;
+  width: 100%;
+}
+.header_logo {
+  align-self: center;
+  font-size: 16px;
+  font-family: PingFangSC-Regular;
+  font-weight: 400;
+  margin-bottom: 17px;
+  color: white
+}
+.wechat_login {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.wechat_login a {
+  color: #606266;
+  height: 31px;
+  cursor: pointer;
+  line-height: 30px;
+  box-sizing: border-box;
+}

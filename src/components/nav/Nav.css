@@ -1,0 +1,59 @@
+.Login_nav {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    min-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: none;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 1000px;
+    height: 45px;
+    border-bottom: 1px solid #000000;
+    box-sizing: border-box;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.Nav_logo{
+    font-size: 24px;
+    font-family: Arial-BoldMT;
+    font-weight: bold;
+    color: white;
+    margin-right: 65px;
+}
+.Nav_Title_Ul {
+    font-family: PingFangSC-Semibold;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    color: white;
+    /* text-decoration: none; */
+}
+.Nav_Title_Ul::after {
+    display: none;
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 4px;
+    background: #000000;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.Nav_Title_Ul:hover{
+    color: white;
+}
+.Nav_login {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 16px;
+}
